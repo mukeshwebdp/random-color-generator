@@ -27,5 +27,6 @@ function randomColorGenerator(){
         // it is used to memory flush;
         intervalID = null
     }
+    
     document.querySelector('.start').addEventListener('click',startChangingColor)
     document.querySelector('.stop').addEventListener('click',stopChangingColor)
